@@ -44,7 +44,6 @@ function make_app(session, dom)
     end
 end
 
-
 function StaticSession()
     us = JSServe.UrlSerializer(false, site_path(), false, "", false)
     return Session(; url_serializer=us)
